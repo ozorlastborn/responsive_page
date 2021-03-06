@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Admission Form Portal</title>
+</head>
+<body>
+<header style="height: auto; width: 100%;background-color: #444;text-align: center; ">
+	<h1 style="color: green"> INSTITUTE OF MANAGEMENT AND TECHNOLOGY (IMT),ENUGU ADMISSION FORM PORTAL</h1>
+</header>
+<h1> <p> Kindly fill out the form below then click on the submit form button</p> </h1>
+<form action="/action_page.php" method="get">
+	<label for="fname">First Name:</label>
+	<input type="text"id=:fname: name="fname">
+	<label for="lname">Middle Name:</label>
+	<input type="text" id=:mname: name="lname">
+	<label for="lname">Last Name:</label>
+	<input type="text" id=:iname: name="lname">
+	<label for="mail">Email:</label>
+	<input type="text"id=:mail: name="mail"><br>
+ <p><label>Enter Your Gender:</label>
+ 	<input type="radio" id=:male: name="gender" value="male">Male
+	<input type="radio" id=:female: name="gender" value="female">Female
+    <input type="radio" id=:other: name="gender" value="other">Other</p>
+	<label for="birthday">Date Of Birth:</label>
+	<input type="date" id=:birthday: name="birthday">
+	<label for=:phone:> Mobile Number:</label>
+    <input type="tel" id="phone" name="phone">
+    <label for=:address:> Home Address:</label>
+    <input type="address" id="add" name="add">
+    <br>
+   <p> <label for="jamb">Jamb Reg No:</label>
+	<input type="text"id=:jamb: name="jamb">
+	<label for="Waec">Waec Centre No:</label>
+	<input type="text" id=:waec: name="waec">
+		<label for="neco">Neco Centre No:</label>
+	<input type="text" id=:neco: name="neco">
+	<label for="level">Diploma Level:</label>
+<select id="level" name="level">
+				<option value="level">Please Select</option>
+				<option value="OND">Ordinary National Diploma</option>
+	            <option value=HND">Higher National Diploma</option></p>
+</select>
+<p><label for="choice1">Course 1st Choice:</label>
+	<input type="text" id=:choice1: name="choice1">
+<label for="choice1">Course 2nd Choice:</label>
+	<input type="text" id=:choice1: name="choice1">
+	<label for="choice1">Course 3rd Choice:</label>
+	<input type="text" id=:choice1: name="choice1"></p>
+	<P>
+		<label for="country">Nationality:</label>
+		<select id="country" name="country">
+			<option value="please">Please Select</option>
+			<option value="nigeria">NIGERIA</option>
+			<option value="togo">TOGO</option>
+			<option value="ghana">GHANA</option>
+			<option value="south">SOUTH AFRICA</option>
+			<option value="benin">BENIN REPUBLIC</option>
+			</select>
+			<label for="state">State Of Origin:</label>
+			<select id="state" name="state">
+				<option value="state">Please Select</option>
+				<option value="lagos">LAGOS</option>
+				<option value="abuja">ABUJA</option>
+				<option value="enugu">ENUGU</option>
+				<option value="ondo">ONDO</option>
+				<option value="delta">DELTA</option>
+			</select>
+			<label for="religion">Religion:</label>
+			<select id="religion" name="religion">
+				<option value="please">Please Select</option>
+				<option value="christain">CHRISTAIN</option>
+				<option value="islam">MUSLIM</option>
+			</select>
+			<p>Disablity (if any):
+				<input type="checkbox" name="None" value="None">None
+			<input type="checkbox" name="Blind" value="Blind">Blind 
+			<input type="checkbox" name="Cripple" value="Cripple">Cripple
+			<input type="checkbox" name="Deaf" value="Deaf">Deaf
+			<input type="checkbox" name="Dumb" value="Dumb">Dumb </p>
+
+			Hobbbies:
+				<input type="checkbox" name="None" value="None">None
+			<input type="checkbox" name="swim" value="Swimming">Swimming 
+			<input type="checkbox" name="football" value="Football">Football
+			<input type="checkbox" name="run" value="Running">Running
+			<input type="checkbox" name="read" value="Reading">Reading </p> 
+			<p>
+			<label for="nextname">Next Of Kin Name:</label>
+	        <input type="text"id=:fname: name="fname">
+	       <label for="nextadd">Next Of Kin Address:</label>
+	       <input type="text"id=:fname: name="fname">
+	        <label for="nextnum">Next Of Kin Mobile Number:</label>
+	       <input type="text"id=:fname: name="fname">
+			</p>
+</form>
+<input type="submit" value="Submit Form">
+</body>
+</html>
